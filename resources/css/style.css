@@ -1,0 +1,38 @@
+/* universal styles */
+
+body {
+    font-size: 12px;
+}
+
+/* nav section */
+
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid pink;
+}
+
+nav h1 {
+    font-size: 200%;
+    font-weight: 300;
+    border: 1px solid black;
+    padding: 12px;
+    margin-left: 12px;
+}
+
+nav ul {
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-right: 12px;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 150%;
+    border: 1px solid orange;
+    padding: 12px;
+    margin: auto;
+}

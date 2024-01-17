@@ -10,7 +10,6 @@ body {
     display: flex;
     justify-content: space-between;
     font-family: 'Montserrat', sans-serif;
-    border: 1px solid pink;
 }
 
 nav h1 {
@@ -22,17 +21,70 @@ nav h1 {
 }
 
 nav ul {
-    border: 1px solid green;
     display: flex;
     justify-content: space-between;
     width: 50%;
-    margin-right: 12px;
+    margin-right: 5%;
 }
 
 nav li {
     display: inline-block;
     font-size: 150%;
-    border: 1px solid orange;
     padding: 12px;
     margin: auto;
+}
+
+nav a:link, visited, hover, active {
+    color: black;
+    text-decoration: none;
+}
+
+#landing {
+    margin: 12px;
+    border: 1px solid black;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#landing-left {
+    width: 60%;
+}
+
+#landing-image {
+    width: 95%;
+    margin: 12px;
+}
+
+#landing-right {
+    width: 40%;
+    margin-top: 5%;
+}
+
+#landing-right h1 {
+    font-size: 56px;
+    text-align: center;
+    font-weight: 400;
+}
+
+#landing-right h4 {
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#landing-right p {
+    font-size: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 20%;
+    padding: 8px;
+    margin: auto;
+}
+
+#landing-right p:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: all .4s linear;
 }

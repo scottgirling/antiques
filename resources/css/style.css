@@ -2,6 +2,7 @@
 
 body {
     font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* nav section */
@@ -9,7 +10,6 @@ body {
 #navigation {
     display: flex;
     justify-content: space-between;
-    font-family: 'Montserrat', sans-serif;
 }
 
 nav h1 {
@@ -34,16 +34,31 @@ nav li {
     margin: auto;
 }
 
-nav a:link, visited, hover, active {
+nav a:link {
     color: black;
     text-decoration: none;
 }
 
+nav a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:active {
+    color: black;
+    text-decoration: none;
+}
+
+/* landing section */
+
 #landing {
     margin: 12px;
-    border: 1px solid black;
     display: flex;
-    font-family: 'Montserrat', sans-serif;
 }
 
 #landing-left {
@@ -51,13 +66,18 @@ nav a:link, visited, hover, active {
 }
 
 #landing-image {
-    width: 95%;
-    margin: 12px;
+    width: 99%;
+    height: 100%;
 }
 
 #landing-right {
     width: 40%;
-    margin-top: 5%;
+    margin: 0;
+    border: 1px solid black;
+}
+
+#landing-right-text {
+    margin-top: 15%;
 }
 
 #landing-right h1 {
@@ -87,4 +107,53 @@ nav a:link, visited, hover, active {
     color: black;
     border: 1px solid black;
     transition: all .4s linear;
+}
+
+/* about section */
+
+#about {
+    margin: 12px;
+    display: flex;
+}
+
+#about-left-container {
+    width: 60%;
+}
+
+#about-text h1 {
+    font-size: 44px;
+    text-align: center;
+}
+
+#about-text p {
+    font-size: 24px;
+}
+
+#about-right-container {
+    width: 40%;
+    margin: auto;
+}
+
+#about-right-container img {
+    width: 100%;
+    margin-top: 12px;
+}
+
+/* FAQs section */
+
+#faqs {
+    margin: 12px;
+}
+
+#faqs img {
+    width: 100%;
+    opacity: 40%;
+}
+
+/* footer section */
+
+footer {
+    margin: 12px;
+    font-size: 12px;
+    border-top: 1px solid black;
 }

@@ -1,0 +1,63 @@
+/* universal styles */
+
+body {
+    font-size: 12px;
+}
+
+/* nav section */
+
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav h1 {
+    font-size: 200%;
+    font-weight: 300;
+    border: 1px solid black;
+    padding: 12px;
+    margin-left: 12px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-right: 5%;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 150%;
+    padding: 12px;
+    margin: auto;
+}
+
+nav a:link {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:active {
+    color: black;
+    text-decoration: none;
+}
+
+/* footer section */
+
+footer {
+    margin: 12px;
+    font-size: 12px;
+    border-top: 1px solid black;
+}

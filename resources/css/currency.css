@@ -19,6 +19,7 @@ nav h1 {
     border: 1px solid black;
     padding: 12px;
     margin-left: 12px;
+    text-align: center;
 }
 
 nav ul {
@@ -71,6 +72,17 @@ nav a:active {
 
     nav li {
         font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    nav h1 {
+        font-size: 100%;
+        width: 120px;
+    }
+
+    nav li {
+        font-size: .75rem;
     }
 }
 
